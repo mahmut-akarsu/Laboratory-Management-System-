@@ -1,0 +1,18 @@
+.root {
+    &[data-variant='danger'] {
+      background-color: var(--mantine-color-red-9);
+      color: var(--mantine-color-red-0);
+    }
+  
+    &[data-variant='primary'] {
+      background: var(--mantine-color-blue-9);
+      color: var(--mantine-color-white);
+      border-width: 0;
+    }
+
+    &[data-variant='secondary'] {
+      background: linear-gradient(45deg, 'grey' 20%, #253b67 80%);
+      color: var(--mantine-color-white);
+      border-width: 0;
+    }
+  }
